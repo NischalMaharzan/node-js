@@ -9,7 +9,7 @@ mongoose
   .catch((err) => console.error("Could not connect to MongoDB...", err));
 
 app.get("/", (req, res) => {
-  res.send("<h5>Hi Nischal!!! .</h5>");
+  res.send("<h5>Hi Nischal .</h5>");
   console.log("Ran from Here");
 });
 app.enable("trust proxy");
